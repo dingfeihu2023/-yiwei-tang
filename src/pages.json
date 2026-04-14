@@ -1,0 +1,79 @@
+{
+  "pages": [
+    {
+      "path": "pages/home/index",
+      "style": {
+        "navigationBarTitleText": "一苇堂",
+        "navigationBarBackgroundColor": "#F7F3EC",
+        "navigationBarTextStyle": "black",
+        "backgroundColor": "#F7F3EC"
+      }
+    },
+    {
+      "path": "pages/topics/index",
+      "style": {
+        "navigationBarTitleText": "专题",
+        "navigationBarBackgroundColor": "#F7F3EC",
+        "navigationBarTextStyle": "black",
+        "backgroundColor": "#F7F3EC"
+      }
+    },
+    {
+      "path": "pages/coread/index",
+      "style": {
+        "navigationBarTitleText": "共读",
+        "navigationBarBackgroundColor": "#F7F3EC",
+        "navigationBarTextStyle": "black",
+        "backgroundColor": "#F7F3EC"
+      }
+    },
+    {
+      "path": "pages/profile/index",
+      "style": {
+        "navigationBarTitleText": "我的",
+        "navigationBarBackgroundColor": "#F7F3EC",
+        "navigationBarTextStyle": "black",
+        "backgroundColor": "#F7F3EC"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "一苇堂",
+    "navigationBarBackgroundColor": "#F7F3EC",
+    "backgroundColor": "#F7F3EC",
+    "backgroundTextStyle": "dark"
+  },
+  "tabBar": {
+    "color": "#7B776F",
+    "selectedColor": "#1F3A37",
+    "backgroundColor": "#F7F3EC",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/home/index",
+        "text": "首页",
+        "iconPath": "static/tabbar/home.png",
+        "selectedIconPath": "static/tabbar/home-active.png"
+      },
+      {
+        "pagePath": "pages/topics/index",
+        "text": "专题",
+        "iconPath": "static/tabbar/topics.png",
+        "selectedIconPath": "static/tabbar/topics-active.png"
+      },
+      {
+        "pagePath": "pages/coread/index",
+        "text": "共读",
+        "iconPath": "static/tabbar/coread.png",
+        "selectedIconPath": "static/tabbar/coread-active.png"
+      },
+      {
+        "pagePath": "pages/profile/index",
+        "text": "我的",
+        "iconPath": "static/tabbar/profile.png",
+        "selectedIconPath": "static/tabbar/profile-active.png"
+      }
+    ]
+  }
+}
