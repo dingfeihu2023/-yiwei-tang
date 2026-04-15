@@ -144,3 +144,142 @@ export const topics = [
     bookCount: 12,
   },
 ]
+
+/* ========================================
+   首页专属 Mock 数据
+   ======================================== */
+
+/** 今日一读 */
+export const dailyReading = {
+  id: 'dr1',
+  title: '君子不器',
+  source: '《论语 · 为政篇》',
+  excerpt: '君子不器。——真正有修养的人，不会把自己局限为某一种固定的角色或工具。在中年之后重读这句话，才真正懂得：放下标签，才能看见更辽阔的自己。',
+  readTime: '5 分钟',
+}
+
+/** 三大主题入口 */
+export const themeEntries = [
+  {
+    id: 'theme1',
+    key: 'kanju',
+    title: '看局',
+    subtitle: '职场 · 关系 · 博弈',
+    desc: '以古观今，看清人事格局',
+    icon: '棋',
+  },
+  {
+    id: 'theme2',
+    key: 'dingxin',
+    title: '定心',
+    subtitle: '情绪 · 焦虑 · 心性',
+    desc: '安顿内心，从容不迫',
+    icon: '茶',
+  },
+  {
+    id: 'theme3',
+    key: 'jiachang',
+    title: '家常',
+    subtitle: '家庭 · 教育 · 传承',
+    desc: '经营好最近的关系',
+    icon: '灯',
+  },
+]
+
+/** 本周推荐 */
+export const weeklyPicks = [
+  {
+    id: 'wp1',
+    title: '中年觉醒：《论语》里的处世智慧',
+    subtitle: '12讲音频 + 逐句精读手册',
+    tags: ['看局', '人际'],
+    price: '68.00',
+    originalPrice: '128.00',
+    cover: 'https://picsum.photos/seed/wp1/400/260',
+    badge: '本周上新',
+  },
+  {
+    id: 'wp2',
+    title: '不焦虑的活法：庄子的心灵处方',
+    subtitle: '8讲音频 + 21天定心练习',
+    tags: ['定心', '减压'],
+    price: '49.00',
+    originalPrice: '99.00',
+    cover: 'https://picsum.photos/seed/wp2/400/260',
+    badge: '口碑之选',
+  },
+  {
+    id: 'wp3',
+    title: '家书里的中国：曾国藩教子之道',
+    subtitle: '10讲音频 + 家书原文对照',
+    tags: ['家常', '教育'],
+    price: '58.00',
+    originalPrice: '108.00',
+    cover: 'https://picsum.photos/seed/wp3/400/260',
+    badge: '',
+  },
+]
+
+/** 作者导读音频 */
+export const audioGuides = [
+  {
+    id: 'ag1',
+    title: '鬼谷子的说服术，今天还能用吗？',
+    author: '张其成',
+    authorTitle: '北京中医药大学教授',
+    avatar: 'https://picsum.photos/seed/au1/100/100',
+    duration: '18:32',
+    plays: 2340,
+  },
+  {
+    id: 'ag2',
+    title: '中年读《易经》：变化中找到不变的锚',
+    author: '曾仕强',
+    authorTitle: '国学大师',
+    avatar: 'https://picsum.photos/seed/au2/100/100',
+    duration: '22:15',
+    plays: 5680,
+  },
+  {
+    id: 'ag3',
+    title: '苏东坡如何面对人生低谷',
+    author: '康震',
+    authorTitle: '北京师范大学教授',
+    avatar: 'https://picsum.photos/seed/au3/100/100',
+    duration: '15:48',
+    plays: 3920,
+  },
+]
+
+/** 会员权益 */
+export const memberBenefits = [
+  { id: 'mb1', icon: '书', title: '全站畅读', desc: '200+ 精解内容免费看' },
+  { id: 'mb2', icon: '音', title: '音频畅听', desc: '所有导读音频无限听' },
+  { id: 'mb3', icon: '友', title: '共读圈', desc: '加入专属共读社群' },
+  { id: 'mb4', icon: '惠', title: '专属折扣', desc: '新品享会员价' },
+]
+
+/** 用户评价 */
+export const userReviews = [
+  {
+    id: 'rv1',
+    nickname: '静水流深',
+    avatar: 'https://picsum.photos/seed/rv1/80/80',
+    content: '四十五岁重读论语，字字句句都有了不同的感悟。一苇堂的解读切中了中年人的心事，不说教，不鸡汤，是真正有温度的陪伴。',
+    tag: '读了 6 个月',
+  },
+  {
+    id: 'rv2',
+    nickname: '半山听雨',
+    avatar: 'https://picsum.photos/seed/rv2/80/80',
+    content: '职场遇到瓶颈后开始听鬼谷子的课，慢慢找到了和同事、领导相处的分寸感。古人的智慧，比那些成功学管用多了。',
+    tag: '读了 3 个月',
+  },
+  {
+    id: 'rv3',
+    nickname: '岁月如歌',
+    avatar: 'https://picsum.photos/seed/rv3/80/80',
+    content: '孩子青春期叛逆，我在曾国藩家书里找到了答案。原来教育的本质是以身作则，而不是一味的说教。',
+    tag: '读了 4 个月',
+  },
+]
