@@ -415,6 +415,309 @@ export const topicDetails = {
   },
 }
 
+/* ========================================
+   电子书详情 Mock 数据
+   ======================================== */
+
+export const ebookDetails = {
+  'eb-wuqing': {
+    id: 'eb-wuqing',
+    title: '无情者胜：从《战国策》看人性、权力与分寸',
+    subtitle: '不是教你变冷，而是教你别把人性看得太暖',
+    author: '一苇堂编辑部',
+    authorDesc: '一苇堂核心内容团队，专注用现代视角重读古典，将先秦智慧转化为当代人的实用工具。',
+    authorAvatar: 'https://picsum.photos/seed/author-wq/120/120',
+    cover: 'https://picsum.photos/seed/eb-wuqing/400/560',
+    price: '49.90',
+    originalPrice: '89.00',
+    tags: ['电子书', '深度解读', '一苇堂代表作'],
+    readCount: 6230,
+    wordCount: '8.6万字',
+    chapterCount: 12,
+    theme: '看局',
+
+    /** 书籍亮点 */
+    highlights: [
+      '精选《战国策》28篇原文，逐段拆解人性博弈',
+      '每章配"现代场景映射"，古今对照不说教',
+      '附赠"分寸感自检清单"，可反复使用',
+    ],
+
+    /** 作者导读音频 */
+    audioGuide: {
+      title: '为什么要在中年读《战国策》',
+      duration: '16:45',
+      plays: 4280,
+    },
+
+    /** 目录 */
+    chapters: [
+      { id: 'ech1', index: 1, title: '序章：所谓"无情"', desc: '不是没有感情，是不被感情绑架', isFree: true },
+      { id: 'ech2', index: 2, title: '苏秦的逆袭：被至亲羞辱之后', desc: '家人不支持你，是因为你还没成功', isFree: true },
+      { id: 'ech3', index: 3, title: '张仪受辱：舌头还在就够了', desc: '忍辱不是软弱，是筹码不够时的生存策略', isFree: false },
+      { id: 'ech4', index: 4, title: '冯谖弹铗：会哭的孩子有奶吃', desc: '主动暴露需求，才是高级的合作方式', isFree: false },
+      { id: 'ech5', index: 5, title: '触龙说赵太后：最高级的说服', desc: '不是讲道理，是先让对方放下防备', isFree: false },
+      { id: 'ech6', index: 6, title: '邹忌讽齐王：照镜子的学问', desc: '你听到的好话，有多少是真的？', isFree: false },
+      { id: 'ech7', index: 7, title: '范雎的隐忍：差点被打死的宰相', desc: '真正的强者，擅长在最低处等风来', isFree: false },
+      { id: 'ech8', index: 8, title: '田忌赛马：资源少的人怎么赢', desc: '不是比谁资源多，是比谁会排列组合', isFree: false },
+      { id: 'ech9', index: 9, title: '完璧归赵：蔺相如的分寸感', desc: '硬气的底线是你有退路', isFree: false },
+      { id: 'ech10', index: 10, title: '毛遂自荐：被看见是一种能力', desc: '默默努力不够，还得在对的时候站出来', isFree: false },
+      { id: 'ech11', index: 11, title: '商鞅之死：改革者的宿命', desc: '你改变了规则，规则也会反噬你', isFree: false },
+      { id: 'ech12', index: 12, title: '终章：做一个清醒的温暖人', desc: '看透不说透，看清不冷漠', isFree: false },
+    ],
+
+    /** 试读摘要 */
+    trialExcerpt: '战国策里的人物，几乎没有一个是"好人"。他们算计、隐忍、翻脸、背刺。但你把书合上，想想自己经历过的那些事——同事的微妙眼神、领导的话中有话、亲戚饭桌上的旁敲侧击——你会发现：两千年过去了，人性一点都没变……',
+
+    /** 单买 vs 会员对比 */
+    comparison: {
+      single: {
+        label: '单买本书',
+        price: '49.90',
+        features: ['永久阅读本书', '含全部 12 章', '附赠自检清单'],
+      },
+      member: {
+        label: '开通年度会员',
+        price: '199',
+        unit: '/年',
+        features: ['全站电子书畅读', '每月长文更新', '全部音频畅听', '共读活动优先参加', '新品专属折扣'],
+        badge: '更划算',
+      },
+    },
+
+    /** 用户评价 */
+    reviews: [
+      {
+        id: 'ebr1',
+        nickname: '棋局之外',
+        avatar: 'https://picsum.photos/seed/ebr1/80/80',
+        content: '读到苏秦那章的时候差点落泪。不是因为感动，是因为太真实了——你没成功之前，连亲人都不会认真听你说话。这本书让我看明白了很多关系的本质。',
+        tag: '已读完',
+      },
+      {
+        id: 'ebr2',
+        nickname: '人间清醒',
+        avatar: 'https://picsum.photos/seed/ebr2/80/80',
+        content: '开始以为是教人腹黑的，读完才发现恰恰相反。作者说的"无情"不是冷血，是别用情绪替代判断。这个分寸感拿捏得太好了。',
+        tag: '已读完',
+      },
+      {
+        id: 'ebr3',
+        nickname: '不惑',
+        avatar: 'https://picsum.photos/seed/ebr3/80/80',
+        content: '自检清单真的好用。每次开会之前看一遍，提醒自己哪些话该说、哪些话到嘴边咽回去。四十多岁才学会这些，但总比不学好。',
+        tag: '读了 2 周',
+      },
+    ],
+  },
+
+  'eb-dingxin-shu': {
+    id: 'eb-dingxin-shu',
+    title: '定心：当庄子遇见你的焦虑',
+    subtitle: '写给在深夜问"这一切有什么意义"的人',
+    author: '一苇堂编辑部',
+    authorDesc: '一苇堂核心内容团队。',
+    authorAvatar: 'https://picsum.photos/seed/author-dx/120/120',
+    cover: 'https://picsum.photos/seed/eb-dingxin/400/560',
+    price: '39.90',
+    originalPrice: '69.00',
+    tags: ['电子书', '心性修炼', '新中式心理学'],
+    readCount: 5120,
+    wordCount: '6.2万字',
+    chapterCount: 10,
+    theme: '定心',
+
+    highlights: [
+      '将《庄子》核心篇章转化为可操作的心理练习',
+      '每章附"定心五分钟"冥想引导文字',
+      '适合睡前阅读，不刺激，不焦虑',
+    ],
+
+    audioGuide: {
+      title: '庄子其实是最早的心理治疗师',
+      duration: '14:20',
+      plays: 3650,
+    },
+
+    chapters: [
+      { id: 'dch1', index: 1, title: '逍遥游：什么是真正的自由', desc: '不是想做什么就做什么，是不被"应该"绑架', isFree: true },
+      { id: 'dch2', index: 2, title: '齐物论：万物并作，各有其是', desc: '停止评判，从这一刻开始', isFree: true },
+      { id: 'dch3', index: 3, title: '养生主：庖丁解牛的启示', desc: '游刃有余不是技巧高，是找到了缝隙', isFree: false },
+      { id: 'dch4', index: 4, title: '人间世：如何在复杂世界中自处', desc: '不是逃离，是带着清醒生活', isFree: false },
+      { id: 'dch5', index: 5, title: '德充符：真正的魅力来自内心', desc: '外在残缺，内在丰满的故事', isFree: false },
+      { id: 'dch6', index: 6, title: '大宗师：与变化和解', desc: '接受无常，才能获得安宁', isFree: false },
+      { id: 'dch7', index: 7, title: '应帝王：领导力的最高境界', desc: '最好的管理是让人忘记管理者的存在', isFree: false },
+      { id: 'dch8', index: 8, title: '秋水：知道自己不知道', desc: '河伯见海才知道自己的渺小', isFree: false },
+      { id: 'dch9', index: 9, title: '至乐：快乐的本质', desc: '追求快乐本身就是焦虑的来源', isFree: false },
+      { id: 'dch10', index: 10, title: '终章：心安即是归处', desc: '你不需要找到意义，你本身就是意义', isFree: false },
+    ],
+
+    trialExcerpt: '庄子讲了一个故事：一棵大树，因为木材无用，所以没有被砍伐，活了几百年，成了方圆百里的地标。所有人在它下面乘凉、聚会、许愿。你看——"无用"才是最大的用……',
+
+    comparison: {
+      single: {
+        label: '单买本书',
+        price: '39.90',
+        features: ['永久阅读本书', '含全部 10 章', '附赠定心练习'],
+      },
+      member: {
+        label: '开通年度会员',
+        price: '199',
+        unit: '/年',
+        features: ['全站电子书畅读', '每月长文更新', '全部音频畅听', '共读活动优先参加', '新品专属折扣'],
+        badge: '更划算',
+      },
+    },
+
+    reviews: [
+      {
+        id: 'dxr1',
+        nickname: '云淡风轻',
+        avatar: 'https://picsum.photos/seed/dxr1/80/80',
+        content: '每晚睡前读一章，配合"定心五分钟"，一周后明显感觉入睡快了。这本书不讲大道理，就是陪你安安静静待一会儿。',
+        tag: '已读完',
+      },
+      {
+        id: 'dxr2',
+        nickname: '大江东去',
+        avatar: 'https://picsum.photos/seed/dxr2/80/80',
+        content: '齐物论那章看了三遍。原来我大部分焦虑都来自"比较"——跟同龄人比、跟过去的自己比。停下来之后，世界忽然就安静了。',
+        tag: '读了 3 周',
+      },
+    ],
+  },
+}
+
+/* ========================================
+   会员权益页 Mock 数据
+   ======================================== */
+
+export const membershipData = {
+  /** 价格 */
+  price: '149',
+  originalPrice: '199',
+  unit: '/年',
+  priceNote: '首发限时价，恢复后 ¥199/年',
+
+  /** 适合谁 */
+  forWhom: [
+    { icon: '思', text: '35-60岁，正在经历人生转折或瓶颈的你' },
+    { icon: '读', text: '想读古典，但不知从哪本开始、怎么读的你' },
+    { icon: '忙', text: '时间有限，希望每天10分钟就能有收获的你' },
+    { icon: '伴', text: '独自读书太孤单，想找一群同频之人共读的你' },
+  ],
+
+  /** 6 项权益 */
+  benefits: [
+    {
+      icon: '书',
+      title: '全站电子书畅读',
+      desc: '现有 12 本电子书 + 每月上新，涵盖看局、定心、家常三大主题。购买会员后全部免费阅读。',
+      stat: '12+ 本',
+    },
+    {
+      icon: '文',
+      title: '每月长文精读',
+      desc: '每月 2-4 篇深度长文，从一个现实问题出发，回到古典中寻找答案。',
+      stat: '月更 2-4 篇',
+    },
+    {
+      icon: '音',
+      title: '全部音频畅听',
+      desc: '名师导读、逐章精讲、睡前伴读，所有音频内容会员免费畅听。',
+      stat: '60+ 期',
+    },
+    {
+      icon: '友',
+      title: '共读社群',
+      desc: '加入会员专属共读群，每期共读活动优先报名，与同频读友交流心得。',
+      stat: '500+ 人',
+    },
+    {
+      icon: '惠',
+      title: '新品专属折扣',
+      desc: '所有新上线的微专栏、电子书，会员享专属折扣价，部分内容会员免费。',
+      stat: '低至 7 折',
+    },
+    {
+      icon: '礼',
+      title: '专属身份标识',
+      desc: '会员专属头像框与评论标识，在共读圈和评论区展示你的读书身份。',
+      stat: '尊享标识',
+    },
+  ],
+
+  /** 可读内容示例 */
+  contentExamples: [
+    { id: 'ce1', title: '无情者胜', type: '电子书', cover: 'https://picsum.photos/seed/ce1/200/280' },
+    { id: 'ce2', title: '定心', type: '电子书', cover: 'https://picsum.photos/seed/ce2/200/280' },
+    { id: 'ce3', title: '识局', type: '微专栏', cover: 'https://picsum.photos/seed/ce3/200/280' },
+    { id: 'ce4', title: '家书里的中国', type: '音频课', cover: 'https://picsum.photos/seed/ce4/200/280' },
+    { id: 'ce5', title: '不焦虑的活法', type: '微专栏', cover: 'https://picsum.photos/seed/ce5/200/280' },
+    { id: 'ce6', title: '中年觉醒', type: '音频课', cover: 'https://picsum.photos/seed/ce6/200/280' },
+  ],
+
+  /** 单买 vs 会员对比 */
+  comparison: {
+    scenarios: [
+      { label: '读 1 本电子书', single: '¥49.9', member: '免费' },
+      { label: '读 3 本电子书', single: '¥149.7', member: '免费' },
+      { label: '听全部音频课', single: '¥297', member: '免费' },
+      { label: '参加共读活动', single: '¥99/期', member: '免费优先' },
+      { label: '全年总花费', single: '¥500+', member: '¥149', highlight: true },
+    ],
+  },
+
+  /** FAQ */
+  faqs: [
+    {
+      q: '会员可以看所有内容吗？',
+      a: '会员可畅读全站电子书、长文、音频内容，并可免费参加共读活动。部分限量实体周边需另行购买。',
+    },
+    {
+      q: '会员到期后，已读内容还能看吗？',
+      a: '会员期间的阅读记录、笔记、标注永久保留。到期后，会员专属内容需续费后继续阅读，单独购买的内容不受影响。',
+    },
+    {
+      q: '可以先试试再决定吗？',
+      a: '当然可以。每本电子书和微专栏都有免费试读章节，你可以先体验内容质量后再决定。我们对内容有信心。',
+    },
+    {
+      q: '支持退款吗？',
+      a: '开通后 7 天内，如未使用任何会员权益（未阅读付费内容），可申请全额退款。',
+    },
+    {
+      q: '会员价格会涨吗？',
+      a: '当前 ¥149/年是首发限时价，内容库持续扩充后将恢复 ¥199/年。已开通用户续费享原价。',
+    },
+  ],
+
+  /** 用户评价 */
+  reviews: [
+    {
+      id: 'mr1',
+      nickname: '静水流深',
+      avatar: 'https://picsum.photos/seed/mr1/80/80',
+      content: '算了一笔账：开了会员之后，半年读了 5 本书、听了十几期音频，按单买算省了快 300 块。关键是内容确实好，不是那种凑数的。',
+      tag: '会员 6 个月',
+    },
+    {
+      id: 'mr2',
+      nickname: '山间明月',
+      avatar: 'https://picsum.photos/seed/mr2/80/80',
+      content: '最喜欢共读群的氛围，没有广告、没有闲聊，就是一群中年人安安静静地分享读后感。这种社群太难得了。',
+      tag: '会员 4 个月',
+    },
+    {
+      id: 'mr3',
+      nickname: '大器晚成',
+      avatar: 'https://picsum.photos/seed/mr3/80/80',
+      content: '本来只是想买一本《无情者胜》，看了会员权益觉得划算就开了。结果发现定心系列也特别适合我，赚到了。',
+      tag: '会员 2 个月',
+    },
+  ],
+}
+
 /** 用户评价 */
 export const userReviews = [
   {
