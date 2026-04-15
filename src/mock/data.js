@@ -259,6 +259,162 @@ export const memberBenefits = [
   { id: 'mb4', icon: '惠', title: '专属折扣', desc: '新品享会员价' },
 ]
 
+/* ========================================
+   微专栏详情 Mock 数据
+   ======================================== */
+
+export const topicDetails = {
+  'td-shiju': {
+    id: 'td-shiju',
+    title: '识局：人和人说话，桌面是平的，下面常常有坡度',
+    subtitle: '写给总在关系里吃亏、在局里后知后觉的人',
+    cover: 'https://picsum.photos/seed/td-shiju/750/480',
+    price: '9.90',
+    originalPrice: '29.90',
+    tags: ['7天读完', '问题型微专栏', '首单推荐'],
+    readCount: 3856,
+    theme: '看局',
+
+    /** 核心问题 */
+    coreProblems: [
+      '为什么同一句话，有人听着舒服，有人听着刺耳？',
+      '为什么你掏心掏肺说了真话，反而得罪了人？',
+      '为什么有些人什么都没说，却已经赢了半局？',
+      '为什么你明明做得最多，升职的永远不是你？',
+    ],
+
+    /** 适合谁 */
+    forWhom: [
+      '在职场或社交中常感到"后知后觉"的人',
+      '说话容易得罪人、不知道哪句话说错了的人',
+      '感觉自己付出多却总被忽视的人',
+      '想理解人际潜规则但不想变得"油腻"的人',
+    ],
+
+    /** 不适合谁 */
+    notForWhom: [
+      '想学"厚黑学"或操控术的人——这里没有',
+      '不愿意反思自己的人——改变从自省开始',
+      '期待一篇文章就改变命运的人——需要持续修炼',
+    ],
+
+    /** 你将获得 */
+    gains: [
+      { icon: '观', title: '一套观局思维', desc: '从《鬼谷子》《韩非子》中提炼的现代识人框架' },
+      { icon: '言', title: '一组说话策略', desc: '在不同场景下，哪些话该说、怎么说、什么时候说' },
+      { icon: '守', title: '一种自保意识', desc: '不是变得圆滑，而是学会在复杂关系中保护自己' },
+      { icon: '定', title: '一份清醒从容', desc: '看清局势之后，不焦虑、不讨好、不被带节奏' },
+    ],
+
+    /** 内容目录 */
+    chapters: [
+      { id: 'ch1', index: 1, title: '开篇：什么是"局"', desc: '日常里那些你没注意到的博弈', isFree: true },
+      { id: 'ch2', index: 2, title: '鬼谷子说的"揣摩"到底是什么', desc: '读懂对方没说出口的话', isFree: true },
+      { id: 'ch3', index: 3, title: '韩非子的忠告：不要替别人做决定', desc: '职场中最常见的越界', isFree: false },
+      { id: 'ch4', index: 4, title: '为什么"实在人"总吃亏', desc: '好意与好结果之间的距离', isFree: false },
+      { id: 'ch5', index: 5, title: '饭局、会议、群聊里的隐形秩序', desc: '从座位到发言顺序的潜规则', isFree: false },
+      { id: 'ch6', index: 6, title: '如何在不撕破脸的情况下说"不"', desc: '温和而坚定的拒绝艺术', isFree: false },
+      { id: 'ch7', index: 7, title: '终章：看清局，不入局', desc: '做一个清醒的善良人', isFree: false },
+    ],
+
+    /** 试读摘要 */
+    trialExcerpt: '人和人之间的对话，表面上是一张平桌，两人对坐。但桌面之下，常常有坡度——有人在上，有人在下。这个坡度不是权力决定的，是"局"决定的……',
+
+    /** 该专栏的用户评价 */
+    reviews: [
+      {
+        id: 'tdr1',
+        nickname: '山高水远',
+        avatar: 'https://picsum.photos/seed/tdr1/80/80',
+        content: '看完第二章就恍然大悟，原来我跟领导汇报工作时犯了那么多"揣摩"的忌讳。短短七篇，胜过读十本职场书。',
+        tag: '已读完',
+      },
+      {
+        id: 'tdr2',
+        nickname: '清风徐来',
+        avatar: 'https://picsum.photos/seed/tdr2/80/80',
+        content: '本来以为又是教人"套路"的，没想到写得这么诚恳。不是教你变滑头，而是教你看清楚之后，选择做一个善良但不天真的人。',
+        tag: '已读完',
+      },
+      {
+        id: 'tdr3',
+        nickname: '一杯清茗',
+        avatar: 'https://picsum.photos/seed/tdr3/80/80',
+        content: '第六章关于拒绝的内容太实用了。我照着试了一次，对方居然没生气，反而更尊重我了。',
+        tag: '读了 5 天',
+      },
+    ],
+  },
+
+  'td-dingxin': {
+    id: 'td-dingxin',
+    title: '定心：焦虑的反面不是平静，是"笃定"',
+    subtitle: '写给在深夜辗转、白天强撑的你',
+    cover: 'https://picsum.photos/seed/td-dingxin/750/480',
+    price: '9.90',
+    originalPrice: '29.90',
+    tags: ['7天读完', '心性修炼', '好评如潮'],
+    readCount: 4210,
+    theme: '定心',
+
+    coreProblems: [
+      '为什么越努力越焦虑，停下来又心慌？',
+      '为什么总在跟别人比，却越比越不安？',
+      '为什么道理都懂，情绪还是控制不住？',
+      '为什么拥有了很多，心里还是空的？',
+    ],
+
+    forWhom: [
+      '长期处于焦虑、失眠、内耗状态的人',
+      '事业有成但内心空虚的中年人',
+      '容易被外界评价影响情绪的人',
+      '想要找到内心安定力量的人',
+    ],
+
+    notForWhom: [
+      '有严重心理疾病需要专业治疗的人',
+      '寻找速效"鸡汤"的人——这里讲的是慢功夫',
+      '不愿面对自己内心的人',
+    ],
+
+    gains: [
+      { icon: '静', title: '一套安心方法', desc: '从《庄子》《心经》中提取的日常定心练习' },
+      { icon: '观', title: '一种观照视角', desc: '学会跳出焦虑，站在更高处看自己的处境' },
+      { icon: '舍', title: '一份断舍勇气', desc: '分清哪些是真需要，哪些是被贩卖的焦虑' },
+      { icon: '安', title: '一种笃定心态', desc: '不是没有困难，而是面对困难时心不散' },
+    ],
+
+    chapters: [
+      { id: 'dch1', index: 1, title: '开篇：焦虑不是病，是信号', desc: '重新理解你的不安', isFree: true },
+      { id: 'dch2', index: 2, title: '庄子的逍遥：不是逃避，是看开', desc: '学会与不确定共处', isFree: true },
+      { id: 'dch3', index: 3, title: '为什么"比较"让我们痛苦', desc: '放下社会时钟的绑架', isFree: false },
+      { id: 'dch4', index: 4, title: '三个古人的至暗时刻', desc: '苏轼、王阳明、陶渊明如何度过低谷', isFree: false },
+      { id: 'dch5', index: 5, title: '中年断舍离：不是扔东西，是清理内心', desc: '一次深度的自我整理', isFree: false },
+      { id: 'dch6', index: 6, title: '每天十分钟的"观心"练习', desc: '一套可操作的日常功课', isFree: false },
+      { id: 'dch7', index: 7, title: '终章：笃定不是没有恐惧', desc: '而是带着恐惧依然前行', isFree: false },
+    ],
+
+    trialExcerpt: '焦虑的反面不是平静——平静太轻了，风一吹就散。焦虑真正的反面是"笃定"。笃定是什么？是你知道日子难，事情多，前路不确定，但你心里有一个锚……',
+
+    reviews: [
+      {
+        id: 'ddr1',
+        nickname: '云淡风轻',
+        avatar: 'https://picsum.photos/seed/ddr1/80/80',
+        content: '失眠了大半年，看完这个专栏后试着做"观心练习"，第三天晚上居然睡着了。不是灵丹妙药，但确实有用。',
+        tag: '已读完',
+      },
+      {
+        id: 'ddr2',
+        nickname: '不惑之年',
+        avatar: 'https://picsum.photos/seed/ddr2/80/80',
+        content: '第四章写三个古人低谷的部分，我读了三遍。原来苏东坡也焦虑过，王阳明也迷茫过。突然觉得自己的困难没那么大了。',
+        tag: '已读完',
+      },
+    ],
+  },
+}
+
 /** 用户评价 */
 export const userReviews = [
   {

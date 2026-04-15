@@ -35,6 +35,16 @@
         "navigationBarTextStyle": "black",
         "backgroundColor": "#F7F3EC"
       }
+    },
+    {
+      "path": "pages/topic-detail/index",
+      "style": {
+        "navigationBarTitleText": "",
+        "navigationStyle": "custom",
+        "navigationBarBackgroundColor": "#F7F3EC",
+        "navigationBarTextStyle": "black",
+        "backgroundColor": "#F7F3EC"
+      }
     }
   ],
   "globalStyle": {
