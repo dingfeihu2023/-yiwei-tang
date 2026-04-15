@@ -5,6 +5,15 @@ import {
   coreadList,
   upcomingReads,
   topics,
+  dailyReading,
+  themeEntries,
+  weeklyPicks,
+  audioGuides,
+  memberBenefits,
+  userReviews,
+  topicDetails,
+  ebookDetails,
+  membershipData,
 } from '@/mock/data'
 
 export const useMockStore = defineStore('mock', {
@@ -14,5 +23,14 @@ export const useMockStore = defineStore('mock', {
     coreadList,
     upcomingReads,
     topics,
+    dailyReading,
+    themeEntries,
+    weeklyPicks,
+    audioGuides,
+    memberBenefits,
+    userReviews,
+    topicDetails,
+    ebookDetails,
+    membershipData,
   }),
 })
