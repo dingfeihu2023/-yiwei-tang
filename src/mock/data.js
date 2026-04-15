@@ -837,6 +837,144 @@ export const profileData = {
   ],
 }
 
+/* ========================================
+   专题列表页 Mock 数据
+   ======================================== */
+
+export const topicCategories = [
+  {
+    id: 'cat-shiju',
+    name: '识局处世',
+    desc: '看清人事格局，不在关系里吃亏',
+    items: [
+      { id: 'tc1', title: '识局：桌面是平的，下面常有坡度', type: '微专栏', tags: ['7天读完', '首单推荐'], price: '9.90', cover: 'https://picsum.photos/seed/tc1/400/260', readCount: 3856 },
+      { id: 'tc2', title: '无情者胜：从《战国策》看人性与分寸', type: '电子书', tags: ['深度解读', '代表作'], price: '49.90', cover: 'https://picsum.photos/seed/tc2/400/260', readCount: 6230 },
+      { id: 'tc3', title: '鬼谷子的说服术，今天还能用吗', type: '音频课', tags: ['18分钟', '名师'], price: '19.90', cover: 'https://picsum.photos/seed/tc3/400/260', readCount: 2340 },
+    ],
+  },
+  {
+    id: 'cat-xinxing',
+    name: '心性修炼',
+    desc: '安顿内心，从容面对不确定',
+    items: [
+      { id: 'tc4', title: '定心：焦虑的反面不是平静，是笃定', type: '微专栏', tags: ['7天读完', '好评如潮'], price: '9.90', cover: 'https://picsum.photos/seed/tc4/400/260', readCount: 4210 },
+      { id: 'tc5', title: '不焦虑的活法：庄子的心灵处方', type: '音频课', tags: ['8讲', '21天练习'], price: '49.00', cover: 'https://picsum.photos/seed/tc5/400/260', readCount: 3120 },
+      { id: 'tc6', title: '定心：当庄子遇见你的焦虑', type: '电子书', tags: ['新中式心理学'], price: '39.90', cover: 'https://picsum.photos/seed/tc6/400/260', readCount: 5120 },
+    ],
+  },
+  {
+    id: 'cat-jiating',
+    name: '家庭教养',
+    desc: '经营好最近的关系',
+    items: [
+      { id: 'tc7', title: '家书里的中国：曾国藩教子之道', type: '音频课', tags: ['10讲', '家书对照'], price: '58.00', cover: 'https://picsum.photos/seed/tc7/400/260', readCount: 1890 },
+      { id: 'tc8', title: '颜氏家训：古人怎么教孩子', type: '微专栏', tags: ['5天读完'], price: '9.90', cover: 'https://picsum.photos/seed/tc8/400/260', readCount: 1560 },
+    ],
+  },
+  {
+    id: 'cat-lishi',
+    name: '历史镜鉴',
+    desc: '以史为鉴，看懂周期与规律',
+    items: [
+      { id: 'tc9', title: '中年觉醒：《论语》里的处世智慧', type: '音频课', tags: ['12讲', '本周上新'], price: '68.00', cover: 'https://picsum.photos/seed/tc9/400/260', readCount: 2780 },
+      { id: 'tc10', title: '二十四史导读：精选正史经典篇章', type: '电子书', tags: ['历史', '12本'], price: '59.00', cover: 'https://picsum.photos/seed/tc10/400/260', readCount: 1230 },
+    ],
+  },
+]
+
+/* ========================================
+   共读页 Mock 数据
+   ======================================== */
+
+export const coreadPageData = {
+  /** 当前共读 */
+  current: {
+    id: 'crd-current',
+    title: '《论语》精读 · 第三期',
+    subtitle: '逐章逐句品读论语，每周两章，共读十二周',
+    cover: 'https://picsum.photos/seed/crd-curr/750/400',
+    desc: '配合名家注释与当代解读，体悟圣贤智慧。每周由领读人分享一篇导读文章，群内讨论，期末输出个人读后感。',
+    schedule: '每周一、四更新',
+    members: 128,
+    progress: 45,
+    startDate: '2026-03-03',
+    endDate: '2026-05-25',
+    rules: [
+      '每周阅读 2 章原文 + 1 篇导读',
+      '群内每周至少参与一次讨论',
+      '期末提交 500 字以上读后感',
+      '完成全部任务可获"共读证书"',
+    ],
+    leader: {
+      name: '张老师',
+      title: '北京大学中文系讲师',
+      avatar: 'https://picsum.photos/seed/leader1/100/100',
+    },
+  },
+
+  /** 即将开始 */
+  upcoming: [
+    {
+      id: 'crd-up1',
+      title: '《诗经》风雅颂之旅',
+      desc: '从国风到大雅，领略三千年前的诗意中国。',
+      cover: 'https://picsum.photos/seed/crd-up1/400/260',
+      members: 52,
+      startDate: '2026-04-28',
+      duration: '8 周',
+    },
+    {
+      id: 'crd-up2',
+      title: '《史记》列传选读',
+      desc: '精选十篇列传，跟随太史公笔触走进历史深处。',
+      cover: 'https://picsum.photos/seed/crd-up2/400/260',
+      members: 37,
+      startDate: '2026-05-10',
+      duration: '10 周',
+    },
+  ],
+
+  /** 往期精选 */
+  past: [
+    { id: 'crd-past1', title: '《庄子》内篇导读', members: 86, status: '已结束', cover: 'https://picsum.photos/seed/crd-p1/400/260' },
+    { id: 'crd-past2', title: '《孟子》七篇精读', members: 112, status: '已结束', cover: 'https://picsum.photos/seed/crd-p2/400/260' },
+    { id: 'crd-past3', title: '《大学》《中庸》合读', members: 95, status: '已结束', cover: 'https://picsum.photos/seed/crd-p3/400/260' },
+  ],
+}
+
+/* ========================================
+   搜索页 Mock 数据
+   ======================================== */
+
+export const searchData = {
+  hotKeywords: ['鬼谷子', '论语', '焦虑', '庄子', '职场', '中年', '家书', '苏东坡'],
+  allItems: [
+    { id: 's1', title: '无情者胜：从《战国策》看人性、权力与分寸', type: '电子书', cover: 'https://picsum.photos/seed/s1/200/280' },
+    { id: 's2', title: '识局：桌面是平的，下面常有坡度', type: '微专栏', cover: 'https://picsum.photos/seed/s2/200/280' },
+    { id: 's3', title: '定心：焦虑的反面不是平静，是笃定', type: '微专栏', cover: 'https://picsum.photos/seed/s3/200/280' },
+    { id: 's4', title: '不焦虑的活法：庄子的心灵处方', type: '音频课', cover: 'https://picsum.photos/seed/s4/200/280' },
+    { id: 's5', title: '鬼谷子的说服术，今天还能用吗', type: '音频课', cover: 'https://picsum.photos/seed/s5/200/280' },
+    { id: 's6', title: '中年觉醒：《论语》里的处世智慧', type: '音频课', cover: 'https://picsum.photos/seed/s6/200/280' },
+    { id: 's7', title: '家书里的中国：曾国藩教子之道', type: '音频课', cover: 'https://picsum.photos/seed/s7/200/280' },
+    { id: 's8', title: '苏东坡如何面对人生低谷', type: '音频课', cover: 'https://picsum.photos/seed/s8/200/280' },
+    { id: 's9', title: '定心：当庄子遇见你的焦虑', type: '电子书', cover: 'https://picsum.photos/seed/s9/200/280' },
+  ],
+}
+
+/* ========================================
+   FAQ Mock 数据
+   ======================================== */
+
+export const faqList = [
+  { q: '一苇堂是什么？', a: '一苇堂是一个面向 35-60 岁中年人的古典智慧阅读平台。我们将古典经典转化为现代人可理解、可实践的内容，帮助你看清人、看懂局、看稳自己。' },
+  { q: '内容需要付费吗？', a: '每本电子书和微专栏都有免费试读章节。单篇微专栏 ¥9.9 起，电子书 ¥39.9 起。开通年度会员（¥149/年）可畅读全部内容。' },
+  { q: '会员可以看所有内容吗？', a: '会员可畅读全站电子书、长文、音频内容，并可免费参加共读活动。部分限量实体周边需另行购买。' },
+  { q: '如何参加共读活动？', a: '在"共读"页面可查看当前和即将开始的共读活动，点击报名即可。会员可优先参加。每期共读通常持续 8-12 周。' },
+  { q: '支持退款吗？', a: '会员开通后 7 天内未使用任何付费权益可全额退款。单独购买的电子书和微专栏因数字内容特性，一经购买不支持退款。' },
+  { q: '可以在其他设备上阅读吗？', a: '目前仅支持微信小程序端。登录同一微信账号即可同步阅读进度和购买记录。' },
+  { q: '如何联系客服？', a: '在"我的 → 帮助与支持"中可找到在线客服入口，工作时间（周一至周五 9:00-18:00）内通常 30 分钟内回复。' },
+]
+
 /** 用户评价 */
 export const userReviews = [
   {

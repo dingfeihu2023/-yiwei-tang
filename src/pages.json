@@ -74,6 +74,52 @@
         "backgroundColor": "#F7F3EC",
         "disableScroll": false
       }
+    },
+    {
+      "path": "pages/search/index",
+      "style": {
+        "navigationBarTitleText": "搜索",
+        "navigationBarBackgroundColor": "#F7F3EC",
+        "navigationBarTextStyle": "black",
+        "backgroundColor": "#F7F3EC"
+      }
+    },
+    {
+      "path": "pages/pay-success/index",
+      "style": {
+        "navigationBarTitleText": "购买成功",
+        "navigationBarBackgroundColor": "#F7F3EC",
+        "navigationBarTextStyle": "black",
+        "backgroundColor": "#F7F3EC"
+      }
+    },
+    {
+      "path": "pages/member-success/index",
+      "style": {
+        "navigationBarTitleText": "开通成功",
+        "navigationBarBackgroundColor": "#F7F3EC",
+        "navigationBarTextStyle": "black",
+        "backgroundColor": "#F7F3EC"
+      }
+    },
+    {
+      "path": "pages/login/index",
+      "style": {
+        "navigationBarTitleText": "",
+        "navigationStyle": "custom",
+        "navigationBarBackgroundColor": "#F7F3EC",
+        "navigationBarTextStyle": "black",
+        "backgroundColor": "#F7F3EC"
+      }
+    },
+    {
+      "path": "pages/faq/index",
+      "style": {
+        "navigationBarTitleText": "常见问题",
+        "navigationBarBackgroundColor": "#F7F3EC",
+        "navigationBarTextStyle": "black",
+        "backgroundColor": "#F7F3EC"
+      }
     }
   ],
   "globalStyle": {

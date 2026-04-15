@@ -16,6 +16,10 @@ import {
   membershipData,
   readerArticles,
   profileData,
+  topicCategories,
+  coreadPageData,
+  searchData,
+  faqList,
 } from '@/mock/data'
 
 export const useMockStore = defineStore('mock', {
@@ -36,5 +40,9 @@ export const useMockStore = defineStore('mock', {
     membershipData,
     readerArticles,
     profileData,
+    topicCategories,
+    coreadPageData,
+    searchData,
+    faqList,
   }),
 })
