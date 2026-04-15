@@ -14,6 +14,8 @@ import {
   topicDetails,
   ebookDetails,
   membershipData,
+  readerArticles,
+  profileData,
 } from '@/mock/data'
 
 export const useMockStore = defineStore('mock', {
@@ -32,5 +34,7 @@ export const useMockStore = defineStore('mock', {
     topicDetails,
     ebookDetails,
     membershipData,
+    readerArticles,
+    profileData,
   }),
 })

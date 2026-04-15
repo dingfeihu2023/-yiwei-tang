@@ -718,6 +718,125 @@ export const membershipData = {
   ],
 }
 
+/* ========================================
+   阅读器 Mock 数据
+   ======================================== */
+
+export const readerArticles = {
+  'ech1': {
+    id: 'ech1',
+    bookTitle: '无情者胜',
+    chapterIndex: 1,
+    title: '序章：所谓"无情"',
+    subtitle: '不是没有感情，是不被感情绑架',
+    author: '一苇堂编辑部',
+    publishDate: '2026-03-15',
+    readTime: '8 分钟',
+    hasAudio: true,
+    audioTitle: '序章导读音频',
+    audioDuration: '12:30',
+    isFree: true,
+    paragraphs: [
+      { type: 'text', content: '人和人之间的对话，表面上是一张平桌，两人对坐。但桌面之下，常常有坡度——有人在上，有人在下。这个坡度不是权力决定的，是"局"决定的。' },
+      { type: 'text', content: '什么是局？' },
+      { type: 'text', content: '局，不是阴谋，不是套路，不是厚黑学。局，是人与人之间那些没有说出口的东西——期待、立场、利益、面子、情绪——它们交织在一起，形成了一个看不见但真实存在的场域。' },
+      { type: 'text', content: '你在单位开会，领导问"大家有什么意见"，你信以为真，噼里啪啦说了一堆。散会后，同事看你的眼神都变了。你不明白——明明是领导让说的啊？' },
+      { type: 'text', content: '你不明白的，是局。' },
+      { type: 'quote', content: '不知言之谓者，不可与言。知而不以时，不可与处。——《鬼谷子·权篇》' },
+      { type: 'text', content: '鬼谷子这句话翻译过来就是：不懂得说话的分寸的人，没法跟他交流；懂得道理但不会把握时机的人，没法跟他共事。' },
+      { type: 'text', content: '两千三百年前的话，放到今天的职场、饭局、家庭群里，一字不差地适用。' },
+      { type: 'heading', content: '为什么要在中年读这些' },
+      { type: 'text', content: '二十多岁的时候，你可能觉得这些东西太"老油条"了，你相信真诚就够了，相信实力说话，相信清者自清。' },
+      { type: 'text', content: '到了三十五岁、四十岁，你开始发现：不是这样的。' },
+      { type: 'text', content: '你发现那个能力不如你的人升了职，因为他"会来事儿"；你发现你掏心掏肺对朋友好，最后人家跟别人更亲；你发现你在家里付出最多，却最不被尊重。' },
+      { type: 'text', content: '不是世界变了，是你终于看到了世界本来的样子。' },
+      { type: 'text', content: '这个时候，你需要的不是鸡汤——"做自己就好"——那是一种回避。你也不需要厚黑学——教你算计别人——那是另一种迷失。' },
+      { type: 'text', content: '你需要的，是看清。' },
+      { type: 'heading', content: '这本书想做的事' },
+      { type: 'text', content: '《战国策》是一本奇书。它记录了战国时期纵横家们的游说辞令、政治博弈、人际周旋。书里的人物——苏秦、张仪、范雎、蔺相如——每一个都不是"好人"，但每一个都活得清醒。' },
+      { type: 'text', content: '他们忍辱、隐忍、揣摩、进退——不是因为他们没有感情，而是因为他们明白一件事：' },
+      { type: 'quote', content: '在人性的棋局里，情绪是最大的破绽。' },
+      { type: 'text', content: '所以，这本书叫"无情者胜"。但这个"无情"，不是冷血，不是冷漠，不是没有感情。' },
+      { type: 'text', content: '它的意思是——不被感情绑架。' },
+      { type: 'text', content: '看清人性不是为了利用人性，而是为了——在看清之后，依然选择做一个善良的人。但这一次，你的善良不再天真，你的真诚不再盲目，你的沉默不再是因为不懂，而是因为你选择了不说。' },
+      { type: 'heading', content: '关于阅读这本书' },
+      { type: 'text', content: '全书共十二章，每章从一个《战国策》的经典故事出发，落脚到你可能正在经历的现实场景。' },
+      { type: 'text', content: '第一章和第二章可以免费试读，让你感受一下这本书的语感和思路。如果觉得对味儿，再决定要不要继续。' },
+      { type: 'text', content: '不急。好东西值得慢慢看。' },
+      { type: 'divider' },
+      { type: 'text', content: '下一章：苏秦的逆袭——被至亲羞辱之后' },
+    ],
+    chapters: [
+      { id: 'ech1', index: 1, title: '序章：所谓"无情"', isFree: true, isCurrent: true },
+      { id: 'ech2', index: 2, title: '苏秦的逆袭：被至亲羞辱之后', isFree: true, isCurrent: false },
+      { id: 'ech3', index: 3, title: '张仪受辱：舌头还在就够了', isFree: false, isCurrent: false },
+      { id: 'ech4', index: 4, title: '冯谖弹铗：会哭的孩子有奶吃', isFree: false, isCurrent: false },
+      { id: 'ech5', index: 5, title: '触龙说赵太后：最高级的说服', isFree: false, isCurrent: false },
+      { id: 'ech6', index: 6, title: '邹忌讽齐王：照镜子的学问', isFree: false, isCurrent: false },
+      { id: 'ech7', index: 7, title: '范雎的隐忍：差点被打死的宰相', isFree: false, isCurrent: false },
+      { id: 'ech8', index: 8, title: '田忌赛马：资源少的人怎么赢', isFree: false, isCurrent: false },
+      { id: 'ech9', index: 9, title: '完璧归赵：蔺相如的分寸感', isFree: false, isCurrent: false },
+      { id: 'ech10', index: 10, title: '毛遂自荐：被看见是一种能力', isFree: false, isCurrent: false },
+      { id: 'ech11', index: 11, title: '商鞅之死：改革者的宿命', isFree: false, isCurrent: false },
+      { id: 'ech12', index: 12, title: '终章：做一个清醒的温暖人', isFree: false, isCurrent: false },
+    ],
+  },
+}
+
+/* ========================================
+   个人中心 Mock 数据
+   ======================================== */
+
+export const profileData = {
+  /** 用户信息 */
+  user: {
+    avatar: 'https://picsum.photos/seed/user-yw/120/120',
+    nickname: '半山听雨',
+    welcome: '欢迎回来，继续把这段读完',
+    isMember: true,
+    memberExpiry: '2027-04-15',
+    readDays: 86,
+    totalBooks: 5,
+    totalNotes: 23,
+  },
+
+  /** 已购内容 */
+  purchased: [
+    { id: 'p1', title: '无情者胜', type: '电子书', cover: 'https://picsum.photos/seed/p1/200/280' },
+    { id: 'p2', title: '识局', type: '微专栏', cover: 'https://picsum.photos/seed/p2/200/280' },
+    { id: 'p3', title: '定心', type: '电子书', cover: 'https://picsum.photos/seed/p3/200/280' },
+    { id: 'p4', title: '中年觉醒', type: '音频课', cover: 'https://picsum.photos/seed/p4/200/280' },
+  ],
+
+  /** 最近阅读 */
+  recentReads: [
+    {
+      id: 'rr1',
+      title: '无情者胜',
+      chapter: '第5章 触龙说赵太后',
+      cover: 'https://picsum.photos/seed/rr1/200/280',
+      progress: 42,
+      lastReadTime: '今天 09:15',
+    },
+    {
+      id: 'rr2',
+      title: '识局',
+      chapter: '第3章 韩非子的忠告',
+      cover: 'https://picsum.photos/seed/rr2/200/280',
+      progress: 71,
+      lastReadTime: '昨天 22:30',
+    },
+    {
+      id: 'rr3',
+      title: '定心',
+      chapter: '第2章 齐物论',
+      cover: 'https://picsum.photos/seed/rr3/200/280',
+      progress: 28,
+      lastReadTime: '3天前',
+    },
+  ],
+}
+
 /** 用户评价 */
 export const userReviews = [
   {

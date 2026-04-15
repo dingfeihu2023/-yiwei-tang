@@ -65,6 +65,15 @@
         "navigationBarTextStyle": "white",
         "backgroundColor": "#F7F3EC"
       }
+    },
+    {
+      "path": "pages/reader/index",
+      "style": {
+        "navigationBarTitleText": "",
+        "navigationStyle": "custom",
+        "backgroundColor": "#F7F3EC",
+        "disableScroll": false
+      }
     }
   ],
   "globalStyle": {
